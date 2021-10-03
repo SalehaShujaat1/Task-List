@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do task list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Itim&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+
+
+<body>
+    <div class="container-centre-aligned">
+        <h1 id="title">My Daily Task List</h1>
+        <p>
+            <label for="add-task">Add your priority tasks for first 15 minutes of the day!  <i class="fas fa-tasks"></i></label>
+            <input id="add-task" type="text">
+            <button id="addButton"><i class="fas fa-plus"></i></button>
+        </p>        
+        <div>
+            <h3>Edit / delete tasks <i class="fas fa-edit"></i></h3>
+            <ul id="incomplete-tasks"></ul>
+        </div>       
+        <div>
+            <h3>Completed <i class="fas fa-star"></i></h3>
+            <ul id="completed-tasks"></ul>
+        </div>     
+        <button id="clear"><i class="fas fa-bed"></i></button>
+    </div>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
